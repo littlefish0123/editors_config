@@ -1,0 +1,8 @@
+(add-to-list 'load-path
+         "/disk10/liyong.zly/.emacs.d/site-lisp/ecb-alexott/")
+(require 'ecb)
+;(load "/disk10/liyong.zly/.emacs.d/config/cedet.el")
+(setq stack-trace-on-error nil)
+(setq ecb-auto-activate t
+      ecb-tip-of-the-day nil)
+
